@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		5BA3A2AD280A9CA8006FDBA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3A2AC280A9CA8006FDBA4 /* AppDelegate.swift */; };
 		5BA3A2AF280A9CA8006FDBA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3A2AE280A9CA8006FDBA4 /* SceneDelegate.swift */; };
-		5BA3A2B1280A9CA8006FDBA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3A2B0280A9CA8006FDBA4 /* ViewController.swift */; };
 		5BA3A2B4280A9CA8006FDBA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3A2B2280A9CA8006FDBA4 /* Main.storyboard */; };
 		5BA3A2B7280A9CA8006FDBA4 /* GoMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3A2B5280A9CA8006FDBA4 /* GoMemo.xcdatamodeld */; };
 		5BA3A2B9280A9CA9006FDBA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3A2B8280A9CA9006FDBA4 /* Assets.xcassets */; };
 		5BA3A2BC280A9CA9006FDBA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3A2BA280A9CA9006FDBA4 /* LaunchScreen.storyboard */; };
+		5BDFAB6C2816848400AB566B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDFAB6B2816848400AB566B /* Model.swift */; };
+		5BDFAB6E2816884500AB566B /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDFAB6D2816884500AB566B /* MemoListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5BA3A2A9280A9CA8006FDBA4 /* GoMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA3A2AC280A9CA8006FDBA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BA3A2AE280A9CA8006FDBA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5BA3A2B0280A9CA8006FDBA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5BA3A2B3280A9CA8006FDBA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BA3A2B6280A9CA8006FDBA4 /* GoMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoMemo.xcdatamodel; sourceTree = "<group>"; };
 		5BA3A2B8280A9CA9006FDBA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BA3A2BB280A9CA9006FDBA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BA3A2BD280A9CA9006FDBA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BDFAB6B2816848400AB566B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5BDFAB6D2816884500AB566B /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +60,25 @@
 		5BA3A2AB280A9CA8006FDBA4 /* GoMemo */ = {
 			isa = PBXGroup;
 			children = (
+				5BDFAB6A2816846900AB566B /* Model */,
 				5BA3A2AC280A9CA8006FDBA4 /* AppDelegate.swift */,
 				5BA3A2AE280A9CA8006FDBA4 /* SceneDelegate.swift */,
-				5BA3A2B0280A9CA8006FDBA4 /* ViewController.swift */,
 				5BA3A2B2280A9CA8006FDBA4 /* Main.storyboard */,
 				5BA3A2B8280A9CA9006FDBA4 /* Assets.xcassets */,
 				5BA3A2BA280A9CA9006FDBA4 /* LaunchScreen.storyboard */,
 				5BA3A2BD280A9CA9006FDBA4 /* Info.plist */,
 				5BA3A2B5280A9CA8006FDBA4 /* GoMemo.xcdatamodeld */,
+				5BDFAB6D2816884500AB566B /* MemoListTableViewController.swift */,
 			);
 			path = GoMemo;
+			sourceTree = "<group>";
+		};
+		5BDFAB6A2816846900AB566B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BDFAB6B2816848400AB566B /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BA3A2B1280A9CA8006FDBA4 /* ViewController.swift in Sources */,
 				5BA3A2AD280A9CA8006FDBA4 /* AppDelegate.swift in Sources */,
 				5BA3A2AF280A9CA8006FDBA4 /* SceneDelegate.swift in Sources */,
+				5BDFAB6E2816884500AB566B /* MemoListTableViewController.swift in Sources */,
 				5BA3A2B7280A9CA8006FDBA4 /* GoMemo.xcdatamodeld in Sources */,
+				5BDFAB6C2816848400AB566B /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
