@@ -15,6 +15,7 @@
 		5BA3A2BC280A9CA9006FDBA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3A2BA280A9CA9006FDBA4 /* LaunchScreen.storyboard */; };
 		5BDFAB6C2816848400AB566B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDFAB6B2816848400AB566B /* Model.swift */; };
 		5BDFAB6E2816884500AB566B /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDFAB6D2816884500AB566B /* MemoListTableViewController.swift */; };
+		5BDFAB702816CB6E00AB566B /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDFAB6F2816CB6E00AB566B /* ComposeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		5BA3A2BD280A9CA9006FDBA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BDFAB6B2816848400AB566B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		5BDFAB6D2816884500AB566B /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
+		5BDFAB6F2816CB6E00AB566B /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				5BA3A2BD280A9CA9006FDBA4 /* Info.plist */,
 				5BA3A2B5280A9CA8006FDBA4 /* GoMemo.xcdatamodeld */,
 				5BDFAB6D2816884500AB566B /* MemoListTableViewController.swift */,
+				5BDFAB6F2816CB6E00AB566B /* ComposeViewController.swift */,
 			);
 			path = GoMemo;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				5BA3A2AD280A9CA8006FDBA4 /* AppDelegate.swift in Sources */,
 				5BA3A2AF280A9CA8006FDBA4 /* SceneDelegate.swift in Sources */,
 				5BDFAB6E2816884500AB566B /* MemoListTableViewController.swift in Sources */,
+				5BDFAB702816CB6E00AB566B /* ComposeViewController.swift in Sources */,
 				5BA3A2B7280A9CA8006FDBA4 /* GoMemo.xcdatamodeld in Sources */,
 				5BDFAB6C2816848400AB566B /* Model.swift in Sources */,
 			);
